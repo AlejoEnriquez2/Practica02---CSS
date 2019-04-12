@@ -1,0 +1,38 @@
+html {
+    background-color: rgb(144, 170, 144);
+}
+
+.head {
+    background-color: rgb(224, 224, 224);
+}
+
+.menu {
+    border-color: red;
+    border-style: solid;
+    border-radius: 50%;
+}
+
+.menu ul {
+    margin-left: 35px;
+}
+
+.pie {
+    background-color: rgb(224, 224, 224);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#i1 {
+    width: 70%;
+    height: 70%;
+}
+
+#i2 {
+    width: 50%;
+    height: 50%;
+}
+
+#i3 {
+    width: 30%;
+    height: 30%;
+}
