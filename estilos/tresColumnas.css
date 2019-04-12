@@ -1,0 +1,60 @@
+.centrado { 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.centradoTexto {
+    text-align: center;
+}
+
+.head{
+    text-align: center;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    margin: 10px;
+}
+
+.central {
+    float: left;
+    width: 50%;
+    margin: 10px;
+    margin-bottom: 5%;
+}
+
+.lateral {
+    float: left;
+    width: 20%;
+    margin: 10px;
+}
+
+.col {
+    float: left;
+    width: 37%;
+    margin: 10px;
+}
+
+.pie {
+    clear: both;
+    text-align: center;
+}
+
+.tabla tr {
+    border: 0.5px solid;
+}
+
+.tabla td{
+    border: 0.5px solid;
+}
+
+.tabla th {
+    border: 0.5px solid;
+}
+
+.tabla {
+    width: 100%;
+    height: 200px;
+}

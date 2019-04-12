@@ -1,0 +1,39 @@
+.centrado { 
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.head{
+    text-align: center;
+}
+
+.menu {
+    float: left;
+    width: 20%;
+    margin: 10px;
+}
+
+.contenido {
+    float: left;
+    width: 70%;
+    margin: 10px;
+    margin-bottom: 5%;
+}
+
+.contenido h2 {
+    text-align: center;
+}
+
+.centradoTexto {
+    text-align: center;
+}
+
+.hiperImagen h3{
+    text-align: left;
+}
+
+.pie {
+    clear: both;
+    text-align: center;
+}

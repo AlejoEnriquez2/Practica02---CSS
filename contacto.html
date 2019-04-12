@@ -3,20 +3,16 @@
     <head>
         <title>Computadores</title>
         <meta charset="utf-8"/>
-        <style>
-            tr, td, th {
-                border: 0.5px solid;
-            }
-        </style>
+        <link rel="stylesheet" type="text/css" href="estilos/tresColumnas.css">
     </head>
     <body>
-        <header>
+        <header class="head">
             <a href="index.html">
                 <img src="images/p1.png" alt="Imagen"/>
             </a>
             <h1><em>CONTACTOS</em></h1>
         </header>
-        <nav>
+        <nav class="menu">
             <h3>Menú</h3>
             <ul>
                 <li><a href="index.html">Pagina Principal</a></li>
@@ -27,42 +23,72 @@
                 <li><a href="about.html">Acerca de Nosotros</a></li>
             </ul>
         </nav>
-        <section>
-            <h6>Tabla</h6>
+        <div class="central">
+            <section>
+                <h6>Tabla</h6>
+                <article>
+                    <h5>Tablas de Contacto</h5>
+                    <table class="tabla">
+                        <caption>Formas de Contacto</caption>
+                        <thead>
+                            <tr>
+                                <th rowspan="2"><strong>Telefonos Principales</strong></th>
+                                <th colspan="2"><strong>Formas de Contacto</strong></th>
+                            </tr>
+                            <tr>
+                                <th>Celular</th>
+                                <th>Convencional</th>
+                            </tr>
+                        </thead>  
+                        <tbody>
+                            <tr>
+                                <td>Programador</td>
+                                <td>0994454393</td>
+                                <td>0991234758</td>
+                            </tr>
+                            <tr>
+                                <td>Diseñador</td>
+                                <td>0991234576</td>
+                                <td>0994637281</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                            <td colspan="3">Los números de contacto referidos 
+                                en esta tabla puede que esten descontinuados</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </article>
+            </section>
             <article>
-                <h5>Tablas de Contacto</h5>
-                <table>
-                    <caption>Formas de Contacto</caption>
-                    <thead>
-                        <tr>
-                            <th rowspan="2"><strong>Telefonos Principales</strong></th>
-                            <th colspan="2"><strong>Formas de Contacto</strong></th>
-                        </tr>
-                        <tr>
-                            <th>Celular</th>
-                            <th>Convencional</th>
-                        </tr>
-                    </thead>  
-                    <tbody>
-                        <tr>
-                            <td>Programador</td>
-                            <td>0994454393</td>
-                            <td>0991234758</td>
-                        </tr>
-                        <tr>
-                            <td>Diseñador</td>
-                            <td>0991234576</td>
-                            <td>0994637281</td>
-                        </tr>
-                    </tbody>
-                    <tfoot>
-                        <tr>
-                        <td colspan="3">Los números de contacto referidos 
-                            en esta tabla puede que esten descontinuados</td>
-                        </tr>
-                    </tfoot>
-                </table>
+                <h3>Sistemas Inalámbricos</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A placeat ex 
+                    quas ab, dolores cumque. Minus beatae nesciunt, distinctio culpa harum 
+                    dolor veritatis ipsum cumque, laborum neque soluta facere earum quae 
+                    tempore amet rem officia quisquam, sint alias ullam officiis reprehenderit. 
+                    Praesentium velit numquam nemo natus, sed sint quae repudiandae.
+                </p>
             </article>
+            <article>
+                <h3>Ambientes de Contacto Virtual</h3>
+                <p>
+                    Minus beatae nesciunt, distinctio culpa harum dolor veritatis ipsum 
+                    cumque, laborum neque soluta facere earum quae tempore amet rem 
+                    officia quisquam, sint alias ullam officiis reprehenderit. 
+                    Praesentium velit numquam nemo natus, sed sint quae repudiandae. 
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. A placeat 
+                    ex quas ab, dolores cumque. Lorem ipsum dolor, sit amet consectetur 
+                    adipisicing elit. Quisquam unde neque laboriosam, perferendis excepturi 
+                    aliquid dignissimos id atque, quae magni dicta quis. Provident fugit 
+                    aperiam odit doloremque, beatae soluta labore, quisquam ducimus distinctio 
+                    cumque magni officiis rem assumenda cupiditate quasi aliquid, consequatur 
+                    explicabo ullam molestiae consequuntur? Saepe molestiae nulla voluptatibus!
+                </p>
+            </article>
+        </div>
+        <section class="lateral">
             <aside>
                 <h3>¿Como contactarse?</h3>
                 <p>
@@ -82,11 +108,11 @@
                 </p>    
             </aside>
             <aside>
-                <h2>Llamanos</h2>
+                <h2 class="centradoTexto">¡Llamanos Ahora!</h2>
                 <a href="tel:0994454393"><img src="images/p16.png" alt="Imagen"/></a>
             </aside>
         </section>
-        <footer>
+        <footer class="pie">
             <h4>
                 Programador: <q>Alejandro Enríquez</q> &#8226; Organización: Compuventas &#8226; 
                 Correo: <a href="mailto:aenriquezm2@est.ups.edu.ec">aenriquezm2@est.ups.edu.ec</a>
