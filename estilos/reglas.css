@@ -129,17 +129,3 @@ li a:hover{
 .lateral a:active{
     background-color: yellow; color: green;
 }
-
-.txt1 {
-    size: 20px;
-}
-
-.txt2 {
-    width: 20%;
-    height: 40%;
-}
-
-.txt3 {
-    width: 20%;
-    height: 40%;
-}
