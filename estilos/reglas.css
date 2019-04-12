@@ -10,6 +10,9 @@ html {
     border-color: red;
     border-style: solid;
     border-radius: 50%;
+    background-color: rgba(105, 170, 230, 0.623);
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .menu ul {
@@ -95,4 +98,48 @@ html {
 #i15 {
     width: 70%;
     height: 70%;
+}
+
+#titulo {
+    color: rgb(77, 77, 148);
+    font-size: 35px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#subtitulo1 {
+    color: rgb(148, 77, 83);
+    font-size: 30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#subtitulo2 {
+    color: rgb(65, 66, 40);
+    font-size: 25px;
+    font-family: sans-serif;
+}
+
+li a:hover{
+    font-weight: bold; background-color: rgb(112, 112, 216); color: white; text-decoration: underline;
+}
+
+.pie a:visited{
+    color: red;
+}
+
+.lateral a:active{
+    background-color: yellow; color: green;
+}
+
+.txt1 {
+    size: 20px;
+}
+
+.txt2 {
+    width: 20%;
+    height: 40%;
+}
+
+.txt3 {
+    width: 20%;
+    height: 40%;
 }
